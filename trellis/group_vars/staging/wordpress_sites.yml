@@ -1,0 +1,19 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  bluewater.ponorez.site:
+    site_hosts:
+    - canonical: bluewater.ponorez.site
+      redirects: []
+    local_path: ../site
+    branch: main
+    repo: git@github.com:Marvel-DS/bluewater.ponorez.site.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: false

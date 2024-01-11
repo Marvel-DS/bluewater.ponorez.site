@@ -1,0 +1,21 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/vault/
+
+vault_mysql_root_password: e30T13pb9Vw8CbJLylnV7fjppOIxOAkQ6HaGXBFqXTONcBh1YikCKZBhya4Hg9Q8
+vault_users:
+- name: '{{ admin_user }}'
+  password: f55inScZTWkQvnavFOOvu55u9DOHCcbVawaRYuzh1unqWLOjKpCks2FJpifcQnbJ
+  salt: ezvSSy6TuanRkfmJuyh1xEQ3Fw9FHkKXlHrZIzPtjyaElqcAo2XelIKxAiKfjfoU
+vault_wordpress_sites:
+  bluewater.ponorez.site:
+    admin_password: 3oArCL87sWB2EzwBWGEBzyoML3HmwAgOUfxFdyT2aoyvWU1TIrGHZA8cCQ3h1ux5
+    env:
+      db_password: gghtoyPE7c3C0FdM7ulSB273kCcG8EXHhL1i2myqdW5qOvVotBcxeUiRSv8nHbEH
+      auth_key: AVfVHtact9nprcBTVzBQF2OtLBHnD9iz990MPLjdkHGhwUG5sInG06dHsf8wmfvB
+      secure_auth_key: 0PnKzazuRnyggS14Do4creZgepWIQu1RWZzOFvi9WXkmjD0Yc39Hfd4T03Ax27bv
+      logged_in_key: 3d3H4uzrXPUAQKV2L8vcDh5TkbvpILaW5qHZqlux5FhoXR1oxxEP3lw6TZ8MyhMT
+      nonce_key: fjwQqDnvD0nPg9FncExl2afQLCtwUnV7LUcPfcfz4LsG8HYu8tPqyfVBTYSanTjV
+      auth_salt: bN3LPj9jqwVn57cu02oMzEkpRc0t8ix7k3VbgtaJgUTOGgiVPmYm1KmJrauoRNMi
+      secure_auth_salt: 1pFfEtD9ILugMqSAgEcrHuoGcZmQpxooQKsnbJBKVEFsdMEGgJ33Ot9eKDewNGdK
+      logged_in_salt: 05pvU9FpUXkb3Rkx5VP6l9HllEeLTehNfc69LysiZIb0GIwiQzYgjVJBqTFb034B
+      nonce_salt: Bw5WqGBhhOwbUYYrPKrinH5uWVcbBjQnNa8T6WskVDE76yC158wYCrArNXHAQ5Yx

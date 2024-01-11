@@ -1,0 +1,17 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  bluewater.ponorez.site:
+    site_hosts:
+    - canonical: bluewater.ponorez.test
+      redirects: []
+    local_path: ../site
+    admin_email: admin@bluewater.ponorez.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
